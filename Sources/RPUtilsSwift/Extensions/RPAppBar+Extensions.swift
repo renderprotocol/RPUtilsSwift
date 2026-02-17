@@ -1,16 +1,14 @@
 //
-//  RPContainer+Extensions.swift
+//  RPAppBar+Extensions.swift
 //  RPUtilsSwift
-//
-//  Created by Arindam Karmakar on 12/02/26.
 //
 
 import RPGeneratedSwift
 
-public extension RPContainer {
+public extension RPAppBar {
     func makeWidget() -> RPWidget {
         var widget = RPWidget.withID()
-        widget.container = self
+        widget.appBar = self
         return widget
     }
 }
