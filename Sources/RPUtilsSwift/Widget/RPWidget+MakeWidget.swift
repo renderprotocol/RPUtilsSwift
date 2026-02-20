@@ -35,10 +35,10 @@ public extension RPStack {
     }
 }
 
-public extension RPScrollView {
+public extension RPScrollable {
     func makeWidget() -> RPWidget {
         var widget = RPWidget.withID()
-        widget.scrollView = self
+        widget.scrollable = self
         return widget
     }
 }

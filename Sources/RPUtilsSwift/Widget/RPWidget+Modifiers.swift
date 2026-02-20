@@ -248,14 +248,14 @@ public extension RPWidget {
         return detector.makeWidget()
     }
 
-    // MARK: - Scroll View
+    // MARK: - Scrollable
 
-    /// Wraps this widget in an RPScrollView.
+    /// Wraps this widget in an RPScrollable.
     func scrollable(axis: RPAxis = .vertical, showsIndicators: Bool = true) -> RPWidget {
-        var scrollView = RPScrollView()
-        scrollView.child = self
-        scrollView.axis = axis
-        scrollView.showsIndicators = showsIndicators
-        return scrollView.makeWidget()
+        var scrollable = RPScrollable()
+        scrollable.child = self
+        scrollable.axis = axis
+        scrollable.showsIndicators = showsIndicators
+        return scrollable.makeWidget()
     }
 }
