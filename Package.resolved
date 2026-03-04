@@ -25,7 +25,7 @@
       "location" : "https://github.com/renderprotocol/RPGeneratedSwift.git",
       "state" : {
         "branch" : "main",
-        "revision" : "e7ea4e5e2b1f51c61e69411feaa028d9c6f2a06b"
+        "revision" : "f6392671db6cbffc631e1f5687154b0af5ff7622"
       }
     },
     {
@@ -42,8 +42,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-protobuf.git",
       "state" : {
-        "revision" : "9bbb079b69af9d66470ced85461bf13bb40becac",
-        "version" : "1.35.0"
+        "revision" : "5596511fce902e649c403cd4d6d5da1254f142b7",
+        "version" : "1.35.1"
       }
     }
   ],
